@@ -1,6 +1,10 @@
+@use "variables" as *;
+@use "_reset" as *;
+
 body {
   margin: 0;
   height: 500vh;
+  color: $color1;
 }
 
 header {
